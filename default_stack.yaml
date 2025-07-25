@@ -1,0 +1,21 @@
+components:
+  artifact_store:
+    configuration: {}
+    flavor: local
+    name: default
+    type: artifact_store
+  orchestrator:
+    configuration: {}
+    flavor: local
+    name: default
+    type: orchestrator
+
+  experiment_tracker:
+      configuration: {}
+      flavor: mlflow
+      name: mlflow_tracker
+  
+stack_name: default
+zenml_version: 0.84.0
+
+
